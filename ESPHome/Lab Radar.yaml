@@ -27,6 +27,13 @@ wifi:
     ssid: "Lab-Radar Fallback Hotspot"
     password: "Kx6876ZIzHrl"
 
+# ---------------------------------------------------------------------------------
+# What you’ll see
+# Presence should trigger within ~2 m of the sensor (bed area).
+# Far movement (hallway) should not trigger.
+# “Still Target” should stay detected while someone lies still; it will clear ~45 s after they leave.
+# ---------------------------------------------------------------------------------
+
 captive_portal:
 
 # Built-in web UI
